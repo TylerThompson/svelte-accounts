@@ -36,14 +36,14 @@ Easy UI for Logins
 | ------------- | ------ | --------- | ----------- |
 | loginHeading | string | "Login" |             |
 | signupHeading | string | "Sign Up" |             |
-| loginEmailLabel  | string | "undefined"   |             |
+| loginEmailLabel  | string |  undefined  |             |
 | loginEmailPlaceholder  | string | "Email"   |             |
-| loginPasswordLabel  | string | "Logundefinedin"   |             |
+| loginPasswordLabel  | string | undefined   |             |
 | loginPasswordPlaceholder  | string | "Password"   |             |
 | LoginButtonText  | string | "Login"   |             |
-| signUpEmailLabel  | string | "undefined"   |             |
+| signUpEmailLabel  | string | undefined   |             |
 | signUpEmailPlaceholder  | string | "Email"   |             |
-| signUpPasswordLabel  | string | "undefined"   |             |
+| signUpPasswordLabel  | string | undefined   |             |
 | signUpPasswordPlaceholder  | string | "Password"   |             |
 | signUpButtonText  | string | "Sign up"   |             |
 
@@ -54,10 +54,10 @@ Login Form
 | Prop    | Type   | Default | Description |
 | ------- | ------ | ------- | ----------- |
 | heading | string | "Login" |             |
-| emailLabel | string | "undefined" |             |
+| emailLabel | string | undefined |             |
 | emailPlaceholder | string | "Email" |             |
 | passwordPlaceholder | string | "Password" |             |
-| passwordLabel | string | "undefined" |             |
+| passwordLabel | string | undefined |             |
 | text | string | "Login" |             |
 
 ### Signup
@@ -68,9 +68,9 @@ Sign Up Form
 | ------------- | ------ | --------- | ----------- |
 | signupHeading | string | "Sign Up" |             |
 | emailLabel | string | "Email" |             |
-| emailPlaceholder | string | "undefined" |             |
+| emailPlaceholder | string | undefined |             |
 | passwordPlaceholder | string | "Password" |             |
-| passwordLabel | string | "undefined" |             |
+| passwordLabel | string | undefined |             |
 | text | string | "Sign Up" |             |
 
 ### Logout

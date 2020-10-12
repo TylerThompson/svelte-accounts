@@ -26,7 +26,7 @@
     }
 </script>
 
-{#if typeof heading !== 'undefined'}
+{#if typeof heading !== undefined}
     <h3>{heading}</h3>
 {/if}
 
