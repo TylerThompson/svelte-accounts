@@ -1,12 +1,8 @@
 Package.describe({
   name: 'tylerthompson:svelte-accounts',
-  version: '0.0.2',
-  // Brief, one-line summary of the package.
+  version: '0.0.5',
   summary: 'The simplicity of Blaze drop in ui, but in Svelte with the ability to customize further',
-  // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/TylerThompson/svelte-accounts',
-  // By default, Meteor will default to using README.md for documentation.
-  // To avoid submitting documentation, set this field to null.
   documentation: 'README.md'
 });
 

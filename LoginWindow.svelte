@@ -3,21 +3,25 @@
     import Signup from "./Signup.svelte";
     import ForgotPassword from "./ForgotPassword.svelte";
     import { error } from "./state";
-    let loginHeading = "Login";
-    let signupHeading = "Sign Up";
-    let windowType = "LOGIN";
+    export let loginHeading = "Login";
+    export let signupHeading = "Sign Up";
+    export let windowType = "LOGIN";
     // Login
-    let loginEmailLabel = undefined;
-    let loginEmailPlaceholder = "Email";
-    let loginPasswordLabel = undefined;
-    let loginPasswordPlaceholder = "Password";
-    let LoginButtonText = "Login";
+    export let loginEmailLabel = undefined;
+    export let loginEmailPlaceholder = "Email";
+    export let loginPasswordLabel = undefined;
+    export let loginPasswordPlaceholder = "Password";
+    export let LoginButtonText = "Login";
     // Sign up
-    let signUpEmailLabel = undefined;
-    let signUpEmailPlaceholder = "Email";
-    let signUpPasswordLabel = undefined;
-    let signUpPasswordPlaceholder = "Password";
-    let signUpButtonText = "Sign up";
+    export let signUpEmailLabel = undefined;
+    export let signUpEmailPlaceholder = "Email";
+    export let signUpPasswordLabel = undefined;
+    export let signUpPasswordPlaceholder = "Password";
+    export let signUpButtonText = "Sign up";
+    // Forgot
+    export let forgotHeading = "";
+    export let forgotEmailLabel = undefined;
+    export let forgotEmailPlaceholder = "Email";
 </script>
 
 <style>
@@ -61,8 +65,11 @@
         </button>
     </p>
 {:else}
-    <ForgotPassword />
-    <p>
+    <ForgotPassword
+        heading={forgotHeading}
+        emailLabel={forgotEmailLabel}
+        emailPlaceholder={forgotEmailPlaceholder} />
+    <p class="forgot-password-switch">
         I know my password
         <button
             on:click={() => {

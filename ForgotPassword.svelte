@@ -33,7 +33,7 @@
 <form on:submit|preventDefault={onSubmit}>
     <div>
         <label>
-            {emailLabel}
+            {#if typeof emailLabel !== undefined}{emailLabel}{/if}
             <input
                 placeholder={emailPlaceholder}
                 type="email"
